@@ -52,7 +52,7 @@ const Bottompart = (props) => {
                 <select>
                     <option disabled={true}>Chat</option>
                     {user.map((ele,ind)=>{
-                       return <option key={ind}><img src={ele.profilepicture}/>{ele.name}</option>
+                       return <option key={ind}>{ele.name}</option>
                     })}
                 </select>
             </div>
