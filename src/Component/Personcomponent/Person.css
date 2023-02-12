@@ -1,0 +1,199 @@
+.navbarcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(89, 89, 209);
+    padding: 1rem;
+    min-width: 15vw;
+    min-height: 80vh;
+    border-radius: 15px;
+}
+
+.navbarcontainer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.navbarcontainer li{
+    margin-top: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.personcontainer {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+
+/* Right side css */
+
+.rightsection{
+    margin-left: 1rem;
+}
+
+/* TOp part css */
+
+#toppart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 75vw;
+    border-bottom: 1px solid #999494;
+    padding-bottom: 1rem;
+}
+
+#toppart>div{
+    display: flex;
+    align-items: center;
+}
+
+#toppart span{
+    font-size: large;
+
+}
+
+.toppart_span{
+    font-weight: bold;
+    color: #7a7474;
+}
+.toppart_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Bottom part css */
+
+.buttomcontainer{
+    position: relative;
+    display: flex;
+    top: 0.6rem;
+}
+
+.buttomcontainer_left{
+    padding: 0.5rem;
+    padding-top: 0;
+    border-right: 1px solid rgb(112, 110, 110);
+}
+
+.buttomcontainer_left_top > *{
+    position: relative;
+    padding-bottom: 0.8rem;
+}
+
+.buttomcontainer_left_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(85, 84, 84);
+}
+
+.buttomcontainer_left_top > div> img{
+    padding-top: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.buttomcontainer_left_top span{
+    color: rgb(107, 105, 105);
+    font-size: large;
+    font-weight: bold;
+}
+
+.buttomcontainer_left_top p{
+    font-size: large;
+    font-weight: 600;
+    color: #878782;
+}
+
+.buttomcontainer_left_top p:last-of-type{
+    padding-bottom: 0.5rem;
+}
+
+.buttomcontainer_left_bottom > *{
+    position: relative;
+    padding-top: 0.8rem;
+}
+
+.buttomcontainer_left_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttomcontainer_left_bottom >span:first-child{
+    color: #878782;
+    font-weight: 600;
+}
+
+.buttomcontainer_left_bottom span{
+    color: rgb(107, 105, 105);
+    font-size: large;
+    font-weight: bold;
+}
+
+.buttomcontainer_left_bottom p{
+    font-size: large;
+    font-weight: 600;
+    color: #878782;
+}
+
+.buttomcontainer_right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5rem;
+}
+
+.buttomcontainer_right p{
+    font-size: large;
+    font-weight: 500;
+    color: #878782;
+    padding: 1em;
+    padding-bottom: 0.5em;
+}
+
+.buttomcontainer_right span {
+    color: rgb(107, 105, 105);
+    font-size: large;
+    font-weight: bold;
+}
+#fistspan{
+    font-size: large;
+    font-weight: 500;
+    color: #878782;
+}
+
+.imagecontainer{
+    background-image: url('../../media/Map.PNG');
+    background-size:contain;
+    min-width: 40vw;
+    min-height: 50vh;
+    border-radius: 20px;
+}
+
+.lat_longcontainer{
+    text-align: end;
+    padding-left: 15rem;
+    padding-bottom: 1rem;
+}
+
+.lat_longcontainer > span{
+    font-size: small;
+    font-weight: 400;
+}
+
+.lat_longcontainer > span>span{
+    font-size: medium;
+    font-weight: 500;
+}

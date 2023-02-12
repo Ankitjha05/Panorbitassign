@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homescroll {
+  list-style-type: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.homecontainer {
+  position: absolute;
+  background-image: url('./media/Screenshot_20230113_055322.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%
+}
+
+.homescroll>li {
+  padding: 0.8rem;
+  background-color: white;
+}
+
+.listheading {
+  display: block;
+  background-color: rgb(241 241 241);
+  padding: 1.7rem 1rem;
+  font-size: larger;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  max-width: 57.4vw;
+}
+
+
+.listcard {
+  width: 59vw;
+  /* border: 1px solid red; */
+  margin-left: 20vw;
+  border-radius: 28px;
+  overflow: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 5rem;
+}
+
+
+.listcard>nav {
+  position: relative;
+  text-align: center;
+  max-width: 60vw;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 51vh;
+}
+
+.listcard>footer {
+  height: 16px;
+}
+
+/* .homecontainer {
+  margin-top: 5rem;
+} */
+
+.listcardimg {
+  width: 34px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.listcardLi {
+  display: flex;
+  align-items: center;
+}
+
+.listcardLi span {
+  position: relative;
+  color: black;
+  padding-bottom: -10px;
+  top: -10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
